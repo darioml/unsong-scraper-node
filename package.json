@@ -1,0 +1,15 @@
+{
+  "name": "unsong_scrape",
+  "version": "1.0.0",
+  "description": "Scrape unsong book by scott alexander",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "unsong": "echo 'Creating book - this will take a bit' && node index.js > book.html && echo 'done'"
+  },
+  "author": "darioml",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "request": "^2.72.0"
+  }
+}
